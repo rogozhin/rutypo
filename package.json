@@ -1,0 +1,23 @@
+{
+	"name": "RuTypo",
+	"version": "0.0.1",
+	"author": "Lev Rogozhin <lev@rogozhin.pro>",
+	"description": "Russian typograf",
+	"license": "MIT",
+	"contributors": [
+		{
+			"name": "Lev Rogozhin",
+			"email": "lev@rogozhin.pro"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:rogozhin/rutypo.git"
+	},
+	"engines": {
+		"node": ">=7.1"
+	},
+	"dependencies": {
+	},
+	"main": "./rutypo"
+}

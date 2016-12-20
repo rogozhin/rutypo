@@ -1,0 +1,97 @@
+{
+	"non-breaking space": {
+		"group": "space",
+		"hidden": true,
+		"utf": "\u00a0",
+		"entity": "&nbsp;",
+		"syn": ["&#160;"]
+	},
+	"word joiner": {
+		"group": "hidden",
+		"hidden": true,
+		"utf": "\u2060",
+		"entity": "&#8288;"
+	},
+	"left-pointing double angle quotation mark": {
+		"group": "quot",
+		"utf": "«",
+		"entity": "&laquo;",
+		"syn": ["&#171;"]
+	},
+	"right-pointing double angle quotation mark": {
+		"group": "quot",
+		"utf": "»",
+		"entity": "&raquo;",
+		"syn": ["&#187;"]
+	},
+	"double low-9 quotation mark": {
+		"group": "quot",
+		"utf": "„",
+		"entity": "&bdquo;",
+		"syn": ["&#8222;", "&#132;"],
+		"comment": "русская открывающая лапка"
+	},
+	"left double quotation mark": {
+		"group": "quot",
+		"utf": "“",
+		"entity": "&ldquo;",
+		"syn": ["&#8220;", "&#147;"],
+		"comment": "русская закрывающая лапка, открывающая английская лапка"
+	},
+	"right double quotation mark": {
+		"group": "quot",
+		"utf": "”",
+		"entity": "&rdquo;",
+		"syn": ["&#8221;", "&#148;"],
+		"comment": "закрывающая английская лапка"
+	},
+	"left single quotation mark": {
+		"group": "quot",
+		"utf": "‘",
+		"entity": "&lsquo;",
+		"syn": ["&#8216;"],
+		"comment": "открывающая английская кавычка"
+	},
+	"right single quotation mark": {
+		"group": "quot",
+		"utf": "’",
+		"entity": "&rsquo;",
+		"syn": ["&#8217;", "&rsquor;"],
+		"comment": "закрывающая английская кавычка"
+	},
+	"quotation mark": {
+		"group": "quot",
+		"utf": "\"",
+		"entity": "&quot;",
+		"syn": ["&#34;", "&#145;", "&#146;", "&#147;", "&#148;", "&#8992;", "&#9632;"]
+	},
+	"em dash": {
+		"group": "dash",
+		"utf": "—",
+		"entity": "&mdash;",
+		"syn": ["&#151;", "&#8212;"]
+	},
+	"en dash": {
+		"group": "dash",
+		"utf": "–",
+		"entity": "&ndash;",
+		"syn": ["&#150;", "&#8211;"]
+	},
+	"hyphen": {
+		"group": "dash",
+		"utf": "‐",
+		"entity": "&#8208;",
+		"syn": ["&dash;", "&hyphen;"]
+	},
+	"numero sign": {
+		"group": "numero",
+		"utf": "№",
+		"entity": "&#8470;"
+	},
+	"section sign": {
+		"group": "section",
+		"utf": "§",
+		"entity": "&#167;",
+		"syn": ["&sect;", "&hyphen;"]
+	}
+}
