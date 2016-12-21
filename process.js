@@ -75,11 +75,11 @@ processes.cleanSpaces = (text) => {
 	};
 });
 
-processes.typoNumero = (text) => text.replace(/№ *(\w)/g, `№${nbsp}$1`);
+processes.typoNumero = (text) => text.replace(/№ *([\wа-я\d])/gi, `№${nbsp}$1`);
 
 processes.typoAbbr = (text) => {
 	return text
-		.replace(/(\s)т\. (д|п)\./g, `$1т.${nbsp}$2`)
+		.replace(/(\s)т\. (д|п)\./g, `$1т.${nbsp}$2.`)
 		.replace(/([^а-я])(см\.|им\.|рис\.|ср.)\s+/ig, `$1$2${nbsp}`)
 		.replace(/([^а-я]|^)([а-я])[\/\\]([а-я])([^а-я]|$)/gi, `$1$2${joiner}/${joiner}$3$4`);
 };
